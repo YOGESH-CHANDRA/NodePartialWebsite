@@ -4,7 +4,8 @@
   "description": "nodejs project with express and view engine",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js -e js,hbs"
   },
   "author": "yogesh chandra",
   "license": "ISC",
